@@ -17,7 +17,7 @@ app.get('/', (_, res) => {
         'X-Version': version,
     });
 
-    res.send(`hello ${greetee}`);
+    res.send(`Hello ${greetee}`);
 });
 
 app.listen(port, () => {
